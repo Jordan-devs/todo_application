@@ -3,6 +3,10 @@ export interface RegisterUserDTO {
   password: string;
 }
 
+export interface ParamsIdDTO {
+  id: string;
+}
+
 export interface LoginUserDTO {
   username: string;
   password: string;
