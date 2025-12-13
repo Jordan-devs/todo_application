@@ -8,10 +8,6 @@ export interface LoginUserDTO {
   password: string;
 }
 
-export interface ParamsIdDTO {
-  id: string;
-}
-
 export interface CreateTodoDTO {
   title: string;
 }
