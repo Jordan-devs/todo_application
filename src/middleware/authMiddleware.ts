@@ -20,7 +20,7 @@ function authMiddleware(
     req.userId = (decoded as { id: number }).id;
     next();
   } catch (error) {
-    console.error("Error verifying token:", error);
+    console.error("Error verifying tokens:", error);
     return res.status(401).json({ message: "Invalid or expired token" });
   }
 }
